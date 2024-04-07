@@ -1,0 +1,21 @@
+<div class="header-box">
+  <!-- <img style="width:40px;height: 40px;margin:0px 10px;" src="../assets/img/logo.png" alt=""> -->
+  <h3>资金管理主应用</h3>
+  <span style="margin-left: 100px;">{{mfe1data}}</span>
+  <span style="margin-left: 100px;">{{mfe2data}}</span>
+</div>
+<div class="menu-father-box">
+  <div class="menu-left">
+    <div *ngFor="let item of tasks" class="menu-li" (click)="loadRemoteModule(item.modulePath)">
+      <span>{{ item.title }}</span>
+    </div>
+  </div>
+  <div class="menu-right">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+
+
+
