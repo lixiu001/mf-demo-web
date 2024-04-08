@@ -6,6 +6,7 @@ import { TaskComponent } from './task.component';
 import { ListComponent } from './list/list.component';
 import { TaskContentComponent } from './task-content/task-content.component';
 import { DynamicComponentComponent } from './dynamic-component/dynamic-component.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DynamicComponentComponent } from './dynamic-component/dynamic-component
   ],
   imports: [
     CommonModule,
-    TaskRoutingModule
+    TaskRoutingModule,
+    SharedModule
   ]
 })
 export class TaskModule { }

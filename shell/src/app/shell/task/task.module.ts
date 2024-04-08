@@ -14,7 +14,6 @@ import { TaskInfoComponent } from './task-info/task-info.component';
     DynamicComponentComponent,
     DetaillComponent,
     TaskInfoComponent,
-    
   ],
   imports: [
     CommonModule,

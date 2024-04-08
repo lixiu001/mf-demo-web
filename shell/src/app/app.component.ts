@@ -23,8 +23,8 @@ export class AppComponent implements OnInit {
     this.data = mySharedService.getData() || '123213'
   }
 
-  async ngOnInit() {
-    console.log(this)
+  ngOnInit() {
+      (window as any).__DW_MFA_ENV__ = true;
   }
 
   goToTask(type: string) {

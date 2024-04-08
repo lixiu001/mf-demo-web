@@ -10,7 +10,7 @@ sharedMappings.register(path.join(__dirname, "tsconfig.json"), [
 module.exports = {
   output: {
     uniqueName: "mfe1",
-    publicPath: "auto",
+    publicPath: 'http://localhost:3001/', // 你的子工程部署的URL 
   },
   optimization: {
     runtimeChunk: false,
