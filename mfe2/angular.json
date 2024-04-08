@@ -34,7 +34,8 @@
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/styles.scss",
+							"src/app/microfrontend1/style.less"
 						],
 						"scripts": [],
 						"extraWebpackConfig": "webpack.config.js",

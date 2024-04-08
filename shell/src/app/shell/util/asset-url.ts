@@ -1,5 +1,4 @@
 export function assetUrl(url: string): string {
-  debugger
   if (!(window as any).__DW_MFA_ENV__) {
     return url;
   }

@@ -150,23 +150,23 @@
 				}
 			}
 		},
-		"dynamic-core": {
+		"agtDynamicFramework": {
 			"projectType": "library",
-			"root": "projects/dynamic-core",
-			"sourceRoot": "projects/dynamic-core/src",
+			"root": "projects/agt-dynamic-framework",
+			"sourceRoot": "projects/agt-dynamic-framework/src",
 			"prefix": "lib",
 			"architect": {
 				"build": {
 					"builder": "@angular-devkit/build-angular:ng-packagr",
 					"options": {
-						"project": "projects/dynamic-core/ng-package.json"
+						"project": "projects/agt-dynamic-framework/ng-package.json"
 					},
 					"configurations": {
 						"production": {
-							"tsConfig": "projects/dynamic-core/tsconfig.lib.prod.json"
+							"tsConfig": "projects/agt-dynamic-framework/tsconfig.lib.prod.json"
 						},
 						"development": {
-							"tsConfig": "projects/dynamic-core/tsconfig.lib.json"
+							"tsConfig": "projects/agt-dynamic-framework/tsconfig.lib.json"
 						}
 					},
 					"defaultConfiguration": "production"
@@ -174,40 +174,9 @@
 				"test": {
 					"builder": "@angular-devkit/build-angular:karma",
 					"options": {
-						"main": "projects/dynamic-core/src/test.ts",
-						"tsConfig": "projects/dynamic-core/tsconfig.spec.json",
-						"karmaConfig": "projects/dynamic-core/karma.conf.js"
-					}
-				}
-			}
-		},
-		"dynamic-components": {
-			"projectType": "library",
-			"root": "projects/dynamic-components",
-			"sourceRoot": "projects/dynamic-components/src",
-			"prefix": "lib",
-			"architect": {
-				"build": {
-					"builder": "@angular-devkit/build-angular:ng-packagr",
-					"options": {
-						"project": "projects/dynamic-components/ng-package.json"
-					},
-					"configurations": {
-						"production": {
-							"tsConfig": "projects/dynamic-components/tsconfig.lib.prod.json"
-						},
-						"development": {
-							"tsConfig": "projects/dynamic-components/tsconfig.lib.json"
-						}
-					},
-					"defaultConfiguration": "production"
-				},
-				"test": {
-					"builder": "@angular-devkit/build-angular:karma",
-					"options": {
-						"main": "projects/dynamic-components/src/test.ts",
-						"tsConfig": "projects/dynamic-components/tsconfig.spec.json",
-						"karmaConfig": "projects/dynamic-components/karma.conf.js"
+						"main": "projects/agt-dynamic-framework/src/test.ts",
+						"tsConfig": "projects/agt-dynamic-framework/tsconfig.spec.json",
+						"karmaConfig": "projects/agt-dynamic-framework/karma.conf.js"
 					}
 				}
 			}

@@ -13,7 +13,6 @@ export class MfaElementSrcDirective implements OnChanges {
   }
 
   setSrc(src: string): void {
-    debugger
     // 非微前端環境不轉換
     if (!(window as any).__DW_MFA_ENV__) {
       this.renderer2.setAttribute(this.element.nativeElement, 'src', src);

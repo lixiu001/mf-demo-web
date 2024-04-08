@@ -41,6 +41,7 @@
     "@angular/router": "~12.2.0",
     "lint-staged": "^15.2.2",
     "my-shared": "file:dist/my-shared",
+    "agt-dynamic-framework": "file:dist/agt-dynamic-framework",
     "ng-zorro-antd": "^12.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",

@@ -54,19 +54,14 @@ module.exports = {
           strictVersion: true,
           import: 'my-shared', 
           requiredVersion: '*'
-        },  
-        'dynamic-core': {  
+        }, 
+        'agt-dynamic-framework': {  
           singleton: true,  
           strictVersion: true,
-          import: 'dynamic-core', 
-          requiredVersion: '*' 
+          import: 'agt-dynamic-framework', 
+          requiredVersion: '*'
         },  
-        'dynamic-components': {  
-          singleton: true,  
-          strictVersion: true,
-          import: 'dynamic-components', 
-          requiredVersion: '*' 
-        },  
+        
         ...sharedMappings.getDescriptors(),
       }),
     }),

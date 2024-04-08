@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-dynamic-components',
+  selector: 'lib-agtDynamicFramework',
   template: `
     <p>
-      dynamic-components works!
+      agt-dynamic-framework works!
     </p>
   `,
   styles: [
   ]
 })
-export class DynamicComponentsComponent implements OnInit {
+export class AgtDynamicFrameworkComponent implements OnInit {
 
   constructor() { }
 
